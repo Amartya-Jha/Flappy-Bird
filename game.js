@@ -97,7 +97,7 @@ const fg = {
     x: 0,
     y: cvs.height - 112,
     
-    dx : 2,
+    dx : 3,
     
     draw : function(){
         ctx.drawImage(sprite, this.sX, this.sY, this.w, this.h, this.x, this.y, this.w, this.h);
@@ -130,7 +130,7 @@ const bird = {
     frame : 0,
     
     gravity : 0.11,
-    jump : 3.1,
+    jump : 2.8,
     speed : 0,
     rotation : 0,
     
