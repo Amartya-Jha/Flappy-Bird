@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Original Flappy Bird -JavaScript</title>
+    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
     <style>        
-        canvas{
-            border: 1px solid #000;
-            display: block;
-            margin: 0 auto;
-        }
+        
     </style>
 </head>
 <body>
-    <canvas id="bird" width="320" height="480"></canvas>
+    
+    <!-- <br><br><br><br><br><br><br><br><br> -->
+    <!-- <h1>FLAPPY BIRD</h1> -->
+    
 
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <div id="butt">
+        <a href = './game.html' class="eightbit-btn" id="eightbit-btn1">PLAY</a>
+        <a href = './highscore.html' class="eightbit-btn" id="eightbit-btn2">HIGHSCORES</a>
+    </div>
+    
+    <br><br><br>
+    <input type="text" name="username" class="retro-input" placeholder="name...">
+    <a class = "eightbit-btn" onclick="setUsername(document.getElementById('username').value)">></a>
+    
+    <!-- <img src="./img/Flappy_text.png" alt="flappytext" width="500" height="600"> -->
     <script src="game.js"></script>
 </body>
 </html>
